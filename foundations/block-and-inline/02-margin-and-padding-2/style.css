@@ -1,3 +1,4 @@
+
 body {
   background: gray;
   font-family: sans-serif;
@@ -7,14 +8,33 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding: 8px;
+
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 button {
   background: white;
+  display: block;
+  padding: 8px;
 }
